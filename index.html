@@ -1,48 +1,168 @@
 <!DOCTYPE html>
 
+<!-- Written in Sublime Text 1/8/2019 started -->
+
+<!-- Credit for background image goes to Gleb Makarov, follow him on unsplash at https://unsplash.com/@blueglass -->
 <html>
-    <head>
-        <title>Pittman Resource Group</title>
+<head>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="main.css"
-    </head>
-    <body>
-        <div class="container">
-            <div class="mainPhoto">
-                <img id="richmondSkyline" src="https://ak2.picdn.net/shutterstock/videos/10659002/thumb/1.jpg">
-            </div>
+<meta property="og:title" content="Jason R. Pittman" />
+<meta property="og:image" content="me.jpg" />
 
-        </div>
+	<title>Jason's Home Page</title>
+
+	
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=B612+Mono|Orbitron:400,700|Ubuntu+Mono" rel="stylesheet">
+
+<style type="text/css">
+  
+    h1 {
+      font-family: 'Ubuntu Mono', monospace;
+    }
+
+    body {
+      padding-top: 30px;
+    }
+
+     body {
+      background-image: url("https://images.unsplash.com/photo-1547918641-759efa55629a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2090&q=80");
+     }
+
+     #bottom {
+      color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(100,0,0, 0.5);
+      color: white;
+      text-align: center;
+       
+    }
+     
+     .jumbotron {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      font-family: 'B612 Mono', monospace;
+     }
+
+     /* Gradient transparent - color - transparent */
+
+      hr.style-two {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0);
+    }
+
+    
+
+  </style>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Jason</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="#"><a href="#"><i class="fas fa-home"></i> Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About Me</a></li>
+        <li></li>
+        <li></li>
+        <li><a href="#"><i class="fas fa-blog"></i> Blog</a></li>
+        <li></li>
+        <li></li>
+        <li><a href="https://limitless-plateau-84371.herokuapp.com">Web Design Portfolio</a></li>
+        <li></li>
+        <li></li>
         
-        
-        <div class="centerContent">
-            <div class = "container"> 
-                <h1>Pittman Resource Group, llc</h1>
-                <div id="header">
-                    <p>Mission Statement:</p>
-                </div>
-                <div class = "mainContent">
-                    <p> 
-                            Our mission is to own, develop, and operate ethically responsible businesses that provide exceptional software 
-                        solutions, technical tools and custom merchandise for our customers; and to make contributions to the world 
-                        by helping to create and provide tools and resources for young minds that will help them advance humankind 
-                        through the use of technology.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </body>
-<div>
-        <footer id="bottom"> &copy 2019 Paged Designed and All rights reserved by Pittman Resource Group,llc North Chesterfield,
-            VA 23236 </footer>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="My\ Resume.html"><i class="far fa-clipboard"></i> Resume</a></li>
+        <li><a href="https://twitter.com/jpittman51"><i class="fab fa-twitter"></i> Twitter</a></li>
+      	<li><a href="https://www.linkedin.com/in/jasonpittman/"><i class="fab fa-linkedin"></i></i> Linkedin</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+
+
+
+
+	<hr>
+
+	
+
+	
+
+
+
+
+<div class="container text-center">
+  <div class="jumbotron">
+      
+
+  <h1>About Me</h1>
+
+  <img src="me.jpg">
+  <hr>
+  <style type="text/css">
+    img {
+      width: 200px;
+      padding-top: 25px;
+    }
+  </style>
+  <p>Hello, and welcome to my webspace. Over the coming months this will be a collecton of my thoughts and ideas. Please take a moment and follow me on Twitter and Linkedin to stay update on all the changes that are happening! Also don't forget to subscribe to my blog!  </p>
+ 
+    </div>
 </div>
 
 
+
+
+
+
+
+<footer id="bottom"> &copy 2019 Paged Designed and All rights reserved by Pittman Resource Group,llc North Chesterfield, VA 23236 </footer>
+
+<!-- JavaScript and Jquery links included below.  -->
+
+<!-- Always put the jquery file first, or at least before the bootstrap as bootstrap needs Jquery to run.  -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous">> </script>
+
+<!-- Start bootstraps Javascript.  -->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</body>
 </html>
